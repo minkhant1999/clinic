@@ -10,6 +10,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { GuideComponent } from './components/guide/guide.component';
 import { MakeAnAppointmentComponent } from './components/make-an-appointment/make-an-appointment.component';
 import { ExercisesComponent } from './components/exercises/exercises.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ExercisesComponent } from './components/exercises/exercises.component';
     GuideComponent,
     MakeAnAppointmentComponent,
     ExercisesComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
